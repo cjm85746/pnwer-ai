@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.chat-bubble {
+  max-width: 408px;
+  padding: 12px;
+  border-radius: 0.5rem;
+  box-sizing: border-box;
+  word-wrap: break-word;
+}

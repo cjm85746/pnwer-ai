@@ -47,7 +47,7 @@ export default function Home() {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
-          preprompt: `You are PNWER AI, a helpful and friendly assistant for the 2026 PNWER Annual Summit.`,
+          preprompt: `You are PNWER AI, a helpful and friendly assistant for PNWER and PNWER annual summit.`,
           messages: messagesForClaude,
         }),
       });

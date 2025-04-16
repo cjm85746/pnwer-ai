@@ -144,7 +144,7 @@ export default function Home() {
                   ? chat.title.length > 35
                     ? chat.title.slice(0, 35) + '...'
                     : chat.title
-                  : ''}
+                  : 'New Chat'}
               </li>
             ))}
           </ul>
